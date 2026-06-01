@@ -109,7 +109,7 @@ function runFullBypass(){
 
 btn.onclick=function(){
   var val=inp.value.trim().toUpperCase();
-  if(val!=='AKASHBRO'){err.textContent='\u274c Wrong key! Access denied.';inp.value='';return;}
+  if(val!=='@AKASHMODER'){err.textContent='\u274c Wrong key! Access denied.';inp.value='';return;}
   err.textContent='';
   if(h.includes('tarviral.com')||h.includes('rodaemotor.com')){
     runFullBypass();
