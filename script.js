@@ -1,6 +1,3 @@
-// Join Telegram Channels For more Useful Code
-// https://t.me/rorax_x
-
 (function(){
 if(document.getElementById('_akg_overlay'))return;
 var h=location.host;
@@ -50,8 +47,6 @@ function startCountdown(onDone){
   },1000);
 }
 
-// Join Telegram Channels For more Useful Code
-// https://t.me/rorax_x
 
 function bypassSite(domain,cb){
   var proto=domain==='rodaemotor.com'?'http':'http';
@@ -104,8 +99,7 @@ function runFullBypass(){
   });
 }
 
-// Join Telegram Channels For more Useful Code
-// https://t.me/rorax_x
+
 
 btn.onclick=function(){
   var val=inp.value.trim().toUpperCase();
