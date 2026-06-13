@@ -116,7 +116,7 @@ btn.onclick=function(){
     ov.remove();
     window.location.href='https://alpharede.com/aincrad2';
   }else{
-    err.textContent='\u26a0 Open aincradproxy.xyz/getkey first!';
+    err.textContent='\u26a0 Open https://aincradmods.com/getkey first!';
   }
 };
 inp.addEventListener('keydown',function(e){if(e.key==='Enter')btn.click();});
