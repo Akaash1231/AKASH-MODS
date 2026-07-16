@@ -1,4 +1,5 @@
 (function () {
+(function () {
   "use strict";
 
    // CREDIT: @RAMA_MODZ
@@ -31,18 +32,22 @@
         animation: rama-lightning-glow 3s linear infinite;`,
   };
 
+  const VALID_KEYS = [
+    "keyvip", // Tetap dipertahankan biar ga crash kalau ada cache lama
+  ];
+
+  const FALLBACK_MUSIC_URL = "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/music.mp3";
   let audioPlayer = null;
-   // CREDIT: @RAMA_MODZ
-   // CREDIT: @RAMA_MODZ
-   // CREDIT: @RAMA_MODZ
-   // CREDIT: @RAMA_MODZ
+
+  // ─── Main IIFE ────────────────────────────────────────────────────────────────
   (async function () {
-    const existingBox = document.getElementById("rama-auth-box");
-    if (existingBox) existingBox.remove();
-   // CREDIT: @RAMA_MODZ
-   // CREDIT: @RAMA_MODZ
-   // CREDIT: @RAMA_MODZ
-   // CREDIT: @RAMA_MODZ
+
+    // Hapus elemen lama jika ada
+    document.getElementById("vanz-auth-box")?.remove();
+    document.getElementById("vanz-floating-credit")?.remove();
+
+    const titleName    = "AKASH MODS";
+    const telegramLink = "https://t.me/AKASHMODER"; // Mengikuti variabel asal t.me/ram
     const styleEl = document.createElement("style");
     styleEl.textContent = `
       @keyframes vanz-lightning-glow {
