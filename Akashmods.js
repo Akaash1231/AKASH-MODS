@@ -18,7 +18,7 @@
    // CREDIT: @RAMA_MODZ
   const CONFIG = {
     k: "https://raw.githubusercontent.com/Akaash1231/Akashpro/refs/heads/main/key.txt",
-    r: "https://raw.githubusercontent.com/Akaash1231/Akashpro/refs/heads/main/Akashmods.txt",
+    r: "https://raw.githubusercontent.com/Akaash1231/AKASH-MODS/refs/heads/main/Akashmods.txt",
     t: "https://raw.githubusercontent.com/Akaash1231/Akashpro/refs/heads/main/button.txt",
     m: "https://raw.githubusercontent.com/yuhb8756-lab/RAMA-MODZ-MUSIC/main/music.mp3",
     s: `position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
