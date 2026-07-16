@@ -1,5 +1,4 @@
 (function () {
-(function () {
   "use strict";
 
    // CREDIT: @RAMA_MODZ
