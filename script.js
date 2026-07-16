@@ -1,8 +1,11 @@
-// CREDIT: @RAMA_MODZ
+(function () {
+  "use strict";
+
    // CREDIT: @RAMA_MODZ
    // CREDIT: @RAMA_MODZ
    // CREDIT: @RAMA_MODZ
-  if (typeof window.AKASH_BOOKMARK_LOAD === "undefined") {
+   // CREDIT: @RAMA_MODZ
+  if (typeof window.RAMA_BOOKMARK_LOAD === "undefined") {
     console.log(
       "%cAccess Denied - Bookmark Required",
       "color:#ff0000;font-size:15px;font-weight:bold"
