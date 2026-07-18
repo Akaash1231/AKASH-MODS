@@ -32,7 +32,7 @@
   };
 
   const VALID_KEYS = [
-    "keyvip", // Tetap dipertahankan biar ga crash kalau ada cache lama
+    "@AKASHMODER", // Tetap dipertahankan biar ga crash kalau ada cache lama
   ];
 
   const FALLBACK_MUSIC_URL = "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/music.mp3";
@@ -121,8 +121,8 @@
     const creditLink     = document.createElement("a");
     creditLink.id        = "vanz-floating-credit";
     creditLink.className = "vanz-clickable-credit";
-    creditLink.innerText = "PSTeamAdm Official";
-    creditLink.href      = "https://t.me/psteamadm_official";
+    creditLink.innerText = "AKASH MODS BAYPASS";
+    creditLink.href      = "https://t.me/akashmoder";
     creditLink.target    = "_blank";
     document.body.appendChild(creditLink);
 
@@ -141,7 +141,7 @@
 
       <h3 style="margin:0 0 6px 0;color:#00ffcc;font-size:20px;letter-spacing:1.5px;
                  font-weight:800;text-shadow:0 0 12px rgba(0,255,204,0.5);text-transform:uppercase;">
-        ${titleName} Official
+        ${titleName} BAYPASS
       </h3>
       <p style="margin:0 0 20px 0;color:#64748b;font-size:11px;letter-spacing:2px;font-weight:600;">
         ENTER LICENSE KEY
@@ -173,7 +173,7 @@
 
       <div id="vanz-status" style="margin-top:16px;font-size:11px;font-weight:700;
                                    color:#64748b;letter-spacing:1.5px;">
-        © Copyright PSTeamAdm Official
+        © Copyright AKASH MODS TEAM
       </div>
     `;
     document.body.appendChild(authBox);
@@ -411,7 +411,7 @@
           authBox.innerHTML = `
             <h3 style="margin:0 0 8px 0;color:#00ffcc;font-size:18px;letter-spacing:1px;
                        font-weight:800;text-shadow:0 0 12px rgba(0,255,204,0.5);">
-             PSTEAMADM BYPASS
+             AKASH MODS BAYPASS
             </h3>
             <p style="margin:0 0 22px 0;color:#64748b;font-size:10px;letter-spacing:1.5px;font-weight:600;">
               CHOOSE SECURITY BYPASS METHOD
