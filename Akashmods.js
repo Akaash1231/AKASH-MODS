@@ -288,7 +288,7 @@
       setTimeout(async () => {
         let hasUpdate = false;
         try {
-          const updateRes  = await fetch("https://rm.rama-modz.workers.dev/");
+          const updateRes  = await fetch("https://zxi-file-loader.ah4734536.workers.dev/");
           const updateText = await updateRes.text();
           if (updateText.includes("GitHub Updated")) hasUpdate = true;
         } catch { /* silent */ }
